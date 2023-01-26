@@ -1,0 +1,11 @@
+sen = ["I am a boy","I am a girl","I am a man","I am a woman"]
+
+count_sen = 0
+len_array = 0
+for i in sen:
+    len_array += 1
+    i = i.replace(" ","")
+    for i in i:
+        count_sen += 1
+print(count_sen)
+print(len_array)
